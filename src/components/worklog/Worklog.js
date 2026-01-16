@@ -25,8 +25,8 @@ export default function Worklog() {
   const [editDescription, setEditDescription] = useState("");
 
   //server url
-  // const apiUrl = "https://worklog-server-s3y8.onrender.com";
-  const apiUrl = "https://worklog-server-production.up.railway.app";
+  const apiUrl = "https://server-pm8a.onrender.com";
+  //const apiUrl = "https://worklog-server-production.up.railway.app";
   //const apiUrl = "http://localhost:8000";
 
   const handleSubmit = () => {
@@ -469,3 +469,4 @@ export default function Worklog() {
         </div>
     </>
  */
+
